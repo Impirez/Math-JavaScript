@@ -52,3 +52,34 @@ function calcularTriangulo(Tlado1, Tlado2, Tbase, Taltura){
     }
 }
 console.groupEnd('Triangulo');
+
+
+
+
+
+
+
+console.group('Circulo')
+
+const circuloRadio = 3;
+const diametroCirculo = circuloRadio * 2;
+const PI = Math.PI;
+const circunferencia = diametroCirculo * PI;
+const areaCirculo = (circuloRadio ** 2) * PI;
+console.log({
+    circuloRadio,
+    diametroCirculo,
+    PI,
+    circunferencia,
+    areaCirculo
+})
+function calcularCirculo(radio){
+    const diametro = radio * 2;
+    const radioAlCuadrado = Math.pow(radio, 2);
+    return{
+        ciruferencia: diametro * PI,
+        area: radioAlCuadrado * PI  
+    }
+}
+
+console.groupEnd('Circulo')
