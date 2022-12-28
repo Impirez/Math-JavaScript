@@ -51,6 +51,17 @@ function calcularTriangulo(Tlado1, Tlado2, Tbase, Taltura){
         perimetro: (Tbase * Taltura) / 2
     }
 }
+
+function calcularAlturaTriangulo(lado, base){
+    if(lado == base){
+        console.warn("Este no es un triangulo isoceles")
+    }else {
+        //Formula = raizcuadrada(lado1**2 - (b-2)/4)
+        return Math.sqrt( (lado**2) - ((base ** 2) / 4))             
+        
+    }
+
+}
 console.groupEnd('Triangulo');
 
 
