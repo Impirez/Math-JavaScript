@@ -12,7 +12,7 @@ function CalcularDescuento(){
     const discount = Number(inputDiscount.value);
     const descuento = cupon.value;
     const cupon1 = "PiñaAbajoDelMar";
-    const cupon2 = "DeLaNadaPeCausaGaaa";
+    const cupon2 = "Pato";
     const descupon1 = 25;
     const descupon2 = 50;
     
